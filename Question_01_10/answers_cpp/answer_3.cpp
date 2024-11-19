@@ -52,7 +52,7 @@ cv::Mat Binarize(cv::Mat gray, int th){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori.jpg", cv::IMREAD_COLOR);
 
   // BGR -> Gray
   cv::Mat gray = BGR2GRAY(img);

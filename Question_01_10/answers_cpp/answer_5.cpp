@@ -126,7 +126,7 @@ cv::Mat inverse_hue(cv::Mat hsv){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori.jpg", cv::IMREAD_COLOR);
 
   // BGR -> HSV
   cv::Mat hsv = BGR2HSV(img);

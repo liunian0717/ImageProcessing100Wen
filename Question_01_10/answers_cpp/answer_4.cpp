@@ -93,7 +93,7 @@ cv::Mat Binarize_Otsu(cv::Mat gray){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori.jpg", cv::IMREAD_COLOR);
 
   // BGR -> Gray
   cv::Mat gray = BGR2GRAY(img);

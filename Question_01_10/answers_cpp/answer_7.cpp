@@ -39,7 +39,7 @@ cv::Mat average_pooling(cv::Mat img){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori.jpg", cv::IMREAD_COLOR);
 
   // average pooling
   cv::Mat out = average_pooling(img);

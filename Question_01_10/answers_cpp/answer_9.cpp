@@ -62,7 +62,7 @@ cv::Mat gaussian_filter(cv::Mat img, double sigma, int kernel_size){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori_noise.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori_noise.jpg", cv::IMREAD_COLOR);
 
   // gaussian filter
   cv::Mat out = gaussian_filter(img, 1.3, 3);

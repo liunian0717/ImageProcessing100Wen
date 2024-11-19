@@ -24,7 +24,7 @@ cv::Mat decrease_color(cv::Mat img){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori.jpg", cv::IMREAD_COLOR);
 
   // decrease color
   cv::Mat out = decrease_color(img);

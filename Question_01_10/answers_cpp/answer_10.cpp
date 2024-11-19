@@ -51,7 +51,7 @@ cv::Mat median_filter(cv::Mat img, int kernel_size){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori_noise.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori_noise.jpg", cv::IMREAD_COLOR);
 
   // median filter
   cv::Mat out = median_filter(img, 3);

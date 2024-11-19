@@ -53,7 +53,7 @@ cv::Mat histogram_normalization(cv::Mat img, int a, int b){
 
 int main(int argc, const char* argv[]){
   // read image
-  cv::Mat img = cv::imread("imori_dark.jpg", cv::IMREAD_COLOR);
+  cv::Mat img = cv::imread("../imori_dark.jpg", cv::IMREAD_COLOR);
 
   // histogram normalization
   cv::Mat out = histogram_normalization(img, 0, 255);
